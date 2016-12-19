@@ -1,5 +1,5 @@
-timestamp1= gets.to_i #1482233232333 
-timestamp2= gets.to_i #148209952889 
+timestamp1= gets.to_i 
+timestamp2= gets.to_i  
 
 
 diff = timestamp1 - timestamp2 # разницу мы записываем в переменную diff 
@@ -32,8 +32,8 @@ else
 end 
 
 if seconds >= 1  
- if seconds == 1 || days == -1 
-  print "and #{seconds} seconds." 
+ if seconds == 1 || seconds == -1 
+  print "and #{second} seconds." 
 else 
   print "and #{seconds} seconds." 
 end 
