@@ -1,7 +1,22 @@
-# ruby_test1
+# ruby_test
 
-Program 2 Receives the date in milliseconds, and returns the difference in format
-dd hh mm ss.
-For work with the program you need to run it,
-and enter the first number and second  in milliseconds.
-Press Start (Enter)
+    first_task.rb Программа принимает 2 даты в милисекундах , и возвращает разницу в формате dd hh mm ss . Для работы с программой нужно ее запустить , и ввести последовательно первое число ( от которого мы отнимаем ) и второе ( собственно которое мы отнимаем ) в милисекундах . Нажать пуск ( Enter)
+пример :
+ruby first_test.rb 
+1455666345
+1234456676
+2 days 13 hours 26 minutes and 49 seconds
+
+2312283222
+2222222222
+1 day 1 hour 1 minutes and 1 second
+******************************************************************************************************************************************
+
+   second_task.rb 
+   Для работы с программой нужно ее запустить , и ввести ruby dates.rb 'Wen, 02 Nov 2016 19:00:00'. Нажать пуск ( Enter)
+
+
+
+ruby second_task.rb 'Wen, 02 Nov 2016 19:00:00'
+["Wed, 02 Nov 2016 19:15:00", "Wed, 02 Nov 2016 19:30:00", "Wed, 02 Nov 2016 19:45:00", "Wed, 02 Nov 2016 20:00:00", "Wed, 02 Nov 2016 20:30:00", "Wed, 02 Nov 2016 21:00:00", "Wed, 02 Nov 2016 21:30:00", "Wed, 02 Nov 2016 22:00:00", "Wed, 02 Nov 2016 22:30:00", "Wed, 02 Nov 2016 23:00:00", "Wed, 02 Nov 2016 23:30:00", "Thu, 03 Nov 2016 00:00:00", "Thu, 03 Nov 2016 01:00:00", "Thu, 03 Nov 2016 02:00:00", "Thu, 03 Nov 2016 03:00:00", "Thu, 03 Nov 2016 04:00:00", "Thu, 03 Nov 2016 05:00:00", "Thu, 03 Nov 2016 06:00:00", "Thu, 03 Nov 2016 07:00:00", "Fri, 04 Nov 2016 07:00:00", "Sat, 05 Nov 2016 07:00:00", "Sun, 06 Nov 2016 07:00:00", "Mon, 07 Nov 2016 07:00:00"]
+duschatten@Voljin:~/test_git_hub2$ ["Wed, 02 Nov 2016 19:15:00", "Wed, 02 Nov 2016 19:30:00", "Wed, 02 Nov 2016 19:45:00", "Wed, 02 Nov 2016 20:00:00", "Wed, 02 Nov 2016 20:30:00", "Wed, 02 Nov 2016 21:00:00", "Wed, 02 Nov 2016 21:30:00", "Wed, 02 Nov 2016 22:00:00", "Wed, 02 Nov 2016 22:30:00", "Wed, 02 Nov 2016 23:00:00", "Wed, 02 Nov 2016 23:30:00", "Thu, 03 Nov 2016 00:00:00", "Thu, 03 Nov 2016 01:00:00", "Thu, 03 Nov 2016 02:00:00", "Thu, 03 Nov 2016 03:00:00", "Thu, 03 Nov 2016 04:00:00", "Thu, 03 Nov 2016 05:00:00", "Thu, 03 Nov 2016 06:00:00", "Thu, 03 Nov 2016 07:00:00", "Fri, 04 Nov 2016 07:00:00", "Sat, 05 Nov 2016 07:00:00", "Sun, 06 Nov 2016 07:00:00", "Mon, 07 Nov 2016 07:00:00"]
